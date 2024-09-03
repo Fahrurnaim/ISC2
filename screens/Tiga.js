@@ -15,6 +15,9 @@ export default function Tiga(){
     }
     return(
         <View style={{flex: 1, justifyContent:"center", alignItems:"center", gap:10}}>
+            <View style={{border}}>
+                
+            </View>            
             <Text>Halaman Tiga</Text>
             <Button
             title="Next"
