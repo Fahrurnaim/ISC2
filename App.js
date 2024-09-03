@@ -2,8 +2,8 @@ import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View , Button, Pressable } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import Satu from './screens/Satu.bckp';
-import Dua from './screens/Dua.bckp';
+import Satu from './screens/Satu';
+import Dua from './screens/Dua';
 import Tiga from './screens/Tiga';
 import Empat from './screens/Empat';
 

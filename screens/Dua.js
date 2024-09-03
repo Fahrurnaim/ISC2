@@ -1,14 +1,15 @@
 import React from 'react';
 import { StyleSheet, Text, View, TouchableOpacity, ImageBackground } from 'react-native';
 
-export default function SecondScreen({ route }) {
+export default function Dua({ route }) {
   const { userName } = route.params;
 
   return (
     <ImageBackground
-      source={{ uri: 'https://example.com/your-background-image.jpg' }} // Replace with the background image URL you want to use
-      style={styles.container}
-    >
+    source={require("../assets/BG.jpeg")} 
+    resizeMode="cover"
+    style={styles.Bg}>
+    
       <View style={styles.overlay}>
         <Text style={styles.title}>Let's Start</Text>
         <Text style={styles.subtitle}>{'< />'}</Text>
@@ -87,4 +88,9 @@ const styles = StyleSheet.create({
     color: '#FFFFFF',
     fontSize: 18,
   },
+  Bg:{
+    flex:1,
+    justifyContent:'center',
+    alignItems:'center'
+  }
 });
