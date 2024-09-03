@@ -3,7 +3,7 @@ import { StyleSheet, Text, View , Button, Pressable } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import Satu from './screens/Satu.bckp';
-import Dua from './screens/Dua';
+import Dua from './screens/Dua.bckp';
 import Tiga from './screens/Tiga';
 import Empat from './screens/Empat';
 
